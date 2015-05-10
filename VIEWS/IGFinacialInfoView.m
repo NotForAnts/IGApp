@@ -15,7 +15,7 @@
 {
 if (self = [super initWithFrame:frame])
 	{
-    descriptionLabel.text=@"Finacial Information";
+    descriptionLabel.text=@"Financial Information";
     }
 return self;
 }

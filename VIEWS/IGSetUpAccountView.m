@@ -254,8 +254,9 @@ return CGRectMake(20,ypos,wide-40,42);
 {
 float   wide=self.frame.size.width;
 float   ypos=CGRectGetMaxY([self dateBirthRect]);
+float   pwide=160;
 
-return CGRectMake(20,ypos,wide/2,216);
+return CGRectMake(wide/2-pwide/2,ypos,pwide,216);
 }
 
 -(CGRect)      pastInfoRect

@@ -78,7 +78,7 @@ accountView.backgroundColor=[UIColor clearColor];
 {
 float   wide=self.view.frame.size.width;
 
-return CGRectMake(0,0,wide,20);
+return CGRectMake(0,0,wide,80);
 }
 
 -(CGRect)   accountRect
@@ -93,11 +93,8 @@ return CGRectMake(0,70,wide,high-70);
 
 -(void)     scrollTopAction:(id)sender
 {
-NSLog(@"scrollTopAction");
 [accountView scrollToTop];
 }
-
-
 
 
 
