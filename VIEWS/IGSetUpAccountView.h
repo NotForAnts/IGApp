@@ -67,9 +67,10 @@ id                          delegate;
 
 -(CGRect)      pastInfoRect;
 -(CGRect)      financeInfoRect;
-
-
-
+-(CGRect)      dateBirthRect;
+-(CGRect)      pickerRect;
+-(CGRect)      nameFieldRect;
+-(CGRect)      signUpButtonRect;
 
 
 @end
