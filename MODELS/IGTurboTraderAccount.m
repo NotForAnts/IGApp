@@ -71,8 +71,6 @@ for(NSString *type in requiredTypes)
     }
 
 
-NSLog(@"createDynamicDateTypes %@",dynamicDataTypes);
-
 }
 
 

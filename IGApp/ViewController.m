@@ -132,11 +132,38 @@ IGTraderFinanceInfo     *financeModel=[userAccount financeUserInfo];
     
     NSLog(@"RESULT %@",error);
     
+    
+    // handle result
+    // if okay would go to next screen
+    
+    if(error==nil)  [self showMessageAlert:@"OKAY AND SET UP"];
+    else            [self showMessageAlert:@"SOMETHING WENT WRONG"];
+    
+    
        
     }];
 
 
 }
+
+
+
+-(void)     showMessageAlert:(NSString*)message
+{
+dispatch_async(dispatch_get_main_queue(), ^{
+    UIAlertView *alert=[[UIAlertView alloc] initWithTitle:@"RESULT" message:message delegate:self cancelButtonTitle:@"OK" otherButtonTitles:nil];
+    [alert show];
+        });
+
+
+}
+
+
+- (void)alertView:(UIAlertView *)alertView didDismissWithButtonIndex:(NSInteger)buttonIndex
+{
+alertView=nil;
+}
+
 
 
 
