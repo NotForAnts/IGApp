@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB3332131AFF4E0300F589CD /* IGPastInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3332121AFF4E0300F589CD /* IGPastInfoView.m */; };
+		FB3332161AFF4E4500F589CD /* IGFinacialInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3332151AFF4E4500F589CD /* IGFinacialInfoView.m */; };
+		FB3332191AFF5A6700F589CD /* IGTextFieldInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3332181AFF5A6700F589CD /* IGTextFieldInputView.m */; };
+		FB78279C1AFF84FE00B611F2 /* IGBasicInputDataView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB78279B1AFF84FE00B611F2 /* IGBasicInputDataView.m */; };
+		FB78279F1AFF864900B611F2 /* IGFieldInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB78279E1AFF864900B611F2 /* IGFieldInputView.m */; };
+		FB8F66131AFCB46A0068F9CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8F66121AFCB46A0068F9CA /* main.m */; };
+		FB8F66161AFCB46A0068F9CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8F66151AFCB46A0068F9CA /* AppDelegate.m */; };
+		FB8F66191AFCB46A0068F9CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8F66181AFCB46A0068F9CA /* ViewController.m */; };
+		FB8F661C1AFCB46A0068F9CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB8F661A1AFCB46A0068F9CA /* Main.storyboard */; };
+		FB8F661E1AFCB46A0068F9CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB8F661D1AFCB46A0068F9CA /* Images.xcassets */; };
+		FB8F66211AFCB46A0068F9CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB8F661F1AFCB46A0068F9CA /* LaunchScreen.xib */; };
+		FB8F662D1AFCB46A0068F9CA /* IGAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8F662C1AFCB46A0068F9CA /* IGAppTests.m */; };
+		FB8F663B1AFCB5530068F9CA /* IGMainModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8F663A1AFCB5530068F9CA /* IGMainModel.m */; };
+		FB8F663E1AFCB7A70068F9CA /* IGTerrittory.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8F663D1AFCB7A70068F9CA /* IGTerrittory.m */; };
+		FB8F66411AFCB7DE0068F9CA /* IGTerrittoriesManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8F66401AFCB7DE0068F9CA /* IGTerrittoriesManager.m */; };
+		FB8F66441AFCBA700068F9CA /* IGTurboTraderAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8F66431AFCBA700068F9CA /* IGTurboTraderAccount.m */; };
+		FB8F66471AFCBCA30068F9CA /* IGTraderBasicInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8F66461AFCBCA30068F9CA /* IGTraderBasicInfo.m */; };
+		FB8F664A1AFCBCC90068F9CA /* IGTraderPastInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8F66491AFCBCC90068F9CA /* IGTraderPastInfo.m */; };
+		FB8F664D1AFCBCE60068F9CA /* IGTraderFinanceInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8F664C1AFCBCE60068F9CA /* IGTraderFinanceInfo.m */; };
+		FB8F66591AFCC0530068F9CA /* IGSetUpAccountView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8F66581AFCC0530068F9CA /* IGSetUpAccountView.m */; };
+		FB8F665C1AFCC15E0068F9CA /* IGTerritorySelectView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8F665B1AFCC15E0068F9CA /* IGTerritorySelectView.m */; };
+		FB8F665F1AFCF24F0068F9CA /* IGDateInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = FB8F665E1AFCF24F0068F9CA /* IGDateInputView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB8F66271AFCB46A0068F9CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB8F66051AFCB4690068F9CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB8F660C1AFCB4690068F9CA;
+			remoteInfo = IGApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB3332111AFF4E0300F589CD /* IGPastInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGPastInfoView.h; sourceTree = "<group>"; };
+		FB3332121AFF4E0300F589CD /* IGPastInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGPastInfoView.m; sourceTree = "<group>"; };
+		FB3332141AFF4E4500F589CD /* IGFinacialInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGFinacialInfoView.h; sourceTree = "<group>"; };
+		FB3332151AFF4E4500F589CD /* IGFinacialInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGFinacialInfoView.m; sourceTree = "<group>"; };
+		FB3332171AFF5A6700F589CD /* IGTextFieldInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGTextFieldInputView.h; sourceTree = "<group>"; };
+		FB3332181AFF5A6700F589CD /* IGTextFieldInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGTextFieldInputView.m; sourceTree = "<group>"; };
+		FB78279A1AFF84FE00B611F2 /* IGBasicInputDataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGBasicInputDataView.h; sourceTree = "<group>"; };
+		FB78279B1AFF84FE00B611F2 /* IGBasicInputDataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGBasicInputDataView.m; sourceTree = "<group>"; };
+		FB78279D1AFF864900B611F2 /* IGFieldInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGFieldInputView.h; sourceTree = "<group>"; };
+		FB78279E1AFF864900B611F2 /* IGFieldInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGFieldInputView.m; sourceTree = "<group>"; };
+		FB8F660D1AFCB4690068F9CA /* IGApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IGApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8F66111AFCB46A0068F9CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB8F66121AFCB46A0068F9CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FB8F66141AFCB46A0068F9CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FB8F66151AFCB46A0068F9CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FB8F66171AFCB46A0068F9CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FB8F66181AFCB46A0068F9CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FB8F661B1AFCB46A0068F9CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB8F661D1AFCB46A0068F9CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FB8F66201AFCB46A0068F9CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FB8F66261AFCB46A0068F9CA /* IGAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IGAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB8F662B1AFCB46A0068F9CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB8F662C1AFCB46A0068F9CA /* IGAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IGAppTests.m; sourceTree = "<group>"; };
+		FB8F66391AFCB5530068F9CA /* IGMainModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGMainModel.h; sourceTree = "<group>"; };
+		FB8F663A1AFCB5530068F9CA /* IGMainModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGMainModel.m; sourceTree = "<group>"; };
+		FB8F663C1AFCB7A70068F9CA /* IGTerrittory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGTerrittory.h; sourceTree = "<group>"; };
+		FB8F663D1AFCB7A70068F9CA /* IGTerrittory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGTerrittory.m; sourceTree = "<group>"; };
+		FB8F663F1AFCB7DE0068F9CA /* IGTerrittoriesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGTerrittoriesManager.h; sourceTree = "<group>"; };
+		FB8F66401AFCB7DE0068F9CA /* IGTerrittoriesManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGTerrittoriesManager.m; sourceTree = "<group>"; };
+		FB8F66421AFCBA700068F9CA /* IGTurboTraderAccount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGTurboTraderAccount.h; sourceTree = "<group>"; };
+		FB8F66431AFCBA700068F9CA /* IGTurboTraderAccount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGTurboTraderAccount.m; sourceTree = "<group>"; };
+		FB8F66451AFCBCA30068F9CA /* IGTraderBasicInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGTraderBasicInfo.h; sourceTree = "<group>"; };
+		FB8F66461AFCBCA30068F9CA /* IGTraderBasicInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGTraderBasicInfo.m; sourceTree = "<group>"; };
+		FB8F66481AFCBCC90068F9CA /* IGTraderPastInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGTraderPastInfo.h; sourceTree = "<group>"; };
+		FB8F66491AFCBCC90068F9CA /* IGTraderPastInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGTraderPastInfo.m; sourceTree = "<group>"; };
+		FB8F664B1AFCBCE60068F9CA /* IGTraderFinanceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGTraderFinanceInfo.h; sourceTree = "<group>"; };
+		FB8F664C1AFCBCE60068F9CA /* IGTraderFinanceInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGTraderFinanceInfo.m; sourceTree = "<group>"; };
+		FB8F66571AFCC0530068F9CA /* IGSetUpAccountView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGSetUpAccountView.h; sourceTree = "<group>"; };
+		FB8F66581AFCC0530068F9CA /* IGSetUpAccountView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGSetUpAccountView.m; sourceTree = "<group>"; };
+		FB8F665A1AFCC15E0068F9CA /* IGTerritorySelectView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGTerritorySelectView.h; sourceTree = "<group>"; };
+		FB8F665B1AFCC15E0068F9CA /* IGTerritorySelectView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGTerritorySelectView.m; sourceTree = "<group>"; };
+		FB8F665D1AFCF24F0068F9CA /* IGDateInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IGDateInputView.h; sourceTree = "<group>"; };
+		FB8F665E1AFCF24F0068F9CA /* IGDateInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IGDateInputView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB8F660A1AFCB4690068F9CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8F66231AFCB46A0068F9CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB8F66041AFCB4690068F9CA = {
+			isa = PBXGroup;
+			children = (
+				FB8F66381AFCB5350068F9CA /* ASSETS */,
+				FB8F66361AFCB52E0068F9CA /* MODELS */,
+				FB8F66371AFCB52E0068F9CA /* VIEWS */,
+				FB8F660F1AFCB4690068F9CA /* IGApp */,
+				FB8F66291AFCB46A0068F9CA /* IGAppTests */,
+				FB8F660E1AFCB4690068F9CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB8F660E1AFCB4690068F9CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB8F660D1AFCB4690068F9CA /* IGApp.app */,
+				FB8F66261AFCB46A0068F9CA /* IGAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB8F660F1AFCB4690068F9CA /* IGApp */ = {
+			isa = PBXGroup;
+			children = (
+				FB8F66141AFCB46A0068F9CA /* AppDelegate.h */,
+				FB8F66151AFCB46A0068F9CA /* AppDelegate.m */,
+				FB8F66171AFCB46A0068F9CA /* ViewController.h */,
+				FB8F66181AFCB46A0068F9CA /* ViewController.m */,
+				FB8F661A1AFCB46A0068F9CA /* Main.storyboard */,
+				FB8F661D1AFCB46A0068F9CA /* Images.xcassets */,
+				FB8F661F1AFCB46A0068F9CA /* LaunchScreen.xib */,
+				FB8F66101AFCB4690068F9CA /* Supporting Files */,
+			);
+			path = IGApp;
+			sourceTree = "<group>";
+		};
+		FB8F66101AFCB4690068F9CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB8F66111AFCB46A0068F9CA /* Info.plist */,
+				FB8F66121AFCB46A0068F9CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB8F66291AFCB46A0068F9CA /* IGAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB8F662C1AFCB46A0068F9CA /* IGAppTests.m */,
+				FB8F662A1AFCB46A0068F9CA /* Supporting Files */,
+			);
+			path = IGAppTests;
+			sourceTree = "<group>";
+		};
+		FB8F662A1AFCB46A0068F9CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FB8F662B1AFCB46A0068F9CA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FB8F66361AFCB52E0068F9CA /* MODELS */ = {
+			isa = PBXGroup;
+			children = (
+				FB8F66391AFCB5530068F9CA /* IGMainModel.h */,
+				FB8F663A1AFCB5530068F9CA /* IGMainModel.m */,
+				FB8F663F1AFCB7DE0068F9CA /* IGTerrittoriesManager.h */,
+				FB8F66401AFCB7DE0068F9CA /* IGTerrittoriesManager.m */,
+				FB8F663C1AFCB7A70068F9CA /* IGTerrittory.h */,
+				FB8F663D1AFCB7A70068F9CA /* IGTerrittory.m */,
+				FB8F66421AFCBA700068F9CA /* IGTurboTraderAccount.h */,
+				FB8F66431AFCBA700068F9CA /* IGTurboTraderAccount.m */,
+				FB8F66451AFCBCA30068F9CA /* IGTraderBasicInfo.h */,
+				FB8F66461AFCBCA30068F9CA /* IGTraderBasicInfo.m */,
+				FB8F66481AFCBCC90068F9CA /* IGTraderPastInfo.h */,
+				FB8F66491AFCBCC90068F9CA /* IGTraderPastInfo.m */,
+				FB8F664B1AFCBCE60068F9CA /* IGTraderFinanceInfo.h */,
+				FB8F664C1AFCBCE60068F9CA /* IGTraderFinanceInfo.m */,
+			);
+			path = MODELS;
+			sourceTree = "<group>";
+		};
+		FB8F66371AFCB52E0068F9CA /* VIEWS */ = {
+			isa = PBXGroup;
+			children = (
+				FB8F66571AFCC0530068F9CA /* IGSetUpAccountView.h */,
+				FB8F66581AFCC0530068F9CA /* IGSetUpAccountView.m */,
+				FB78279A1AFF84FE00B611F2 /* IGBasicInputDataView.h */,
+				FB78279B1AFF84FE00B611F2 /* IGBasicInputDataView.m */,
+				FB78279D1AFF864900B611F2 /* IGFieldInputView.h */,
+				FB78279E1AFF864900B611F2 /* IGFieldInputView.m */,
+				FB8F665D1AFCF24F0068F9CA /* IGDateInputView.h */,
+				FB8F665E1AFCF24F0068F9CA /* IGDateInputView.m */,
+				FB8F665A1AFCC15E0068F9CA /* IGTerritorySelectView.h */,
+				FB8F665B1AFCC15E0068F9CA /* IGTerritorySelectView.m */,
+				FB3332171AFF5A6700F589CD /* IGTextFieldInputView.h */,
+				FB3332181AFF5A6700F589CD /* IGTextFieldInputView.m */,
+				FB3332111AFF4E0300F589CD /* IGPastInfoView.h */,
+				FB3332121AFF4E0300F589CD /* IGPastInfoView.m */,
+				FB3332141AFF4E4500F589CD /* IGFinacialInfoView.h */,
+				FB3332151AFF4E4500F589CD /* IGFinacialInfoView.m */,
+			);
+			path = VIEWS;
+			sourceTree = "<group>";
+		};
+		FB8F66381AFCB5350068F9CA /* ASSETS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ASSETS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB8F660C1AFCB4690068F9CA /* IGApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8F66301AFCB46A0068F9CA /* Build configuration list for PBXNativeTarget "IGApp" */;
+			buildPhases = (
+				FB8F66091AFCB4690068F9CA /* Sources */,
+				FB8F660A1AFCB4690068F9CA /* Frameworks */,
+				FB8F660B1AFCB4690068F9CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IGApp;
+			productName = IGApp;
+			productReference = FB8F660D1AFCB4690068F9CA /* IGApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB8F66251AFCB46A0068F9CA /* IGAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB8F66331AFCB46A0068F9CA /* Build configuration list for PBXNativeTarget "IGAppTests" */;
+			buildPhases = (
+				FB8F66221AFCB46A0068F9CA /* Sources */,
+				FB8F66231AFCB46A0068F9CA /* Frameworks */,
+				FB8F66241AFCB46A0068F9CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB8F66281AFCB46A0068F9CA /* PBXTargetDependency */,
+			);
+			name = IGAppTests;
+			productName = IGAppTests;
+			productReference = FB8F66261AFCB46A0068F9CA /* IGAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB8F66051AFCB4690068F9CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Paul Webb";
+				TargetAttributes = {
+					FB8F660C1AFCB4690068F9CA = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					FB8F66251AFCB46A0068F9CA = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = FB8F660C1AFCB4690068F9CA;
+					};
+				};
+			};
+			buildConfigurationList = FB8F66081AFCB4690068F9CA /* Build configuration list for PBXProject "IGApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB8F66041AFCB4690068F9CA;
+			productRefGroup = FB8F660E1AFCB4690068F9CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB8F660C1AFCB4690068F9CA /* IGApp */,
+				FB8F66251AFCB46A0068F9CA /* IGAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB8F660B1AFCB4690068F9CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8F661C1AFCB46A0068F9CA /* Main.storyboard in Resources */,
+				FB8F66211AFCB46A0068F9CA /* LaunchScreen.xib in Resources */,
+				FB8F661E1AFCB46A0068F9CA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8F66241AFCB46A0068F9CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB8F66091AFCB4690068F9CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3332191AFF5A6700F589CD /* IGTextFieldInputView.m in Sources */,
+				FB8F66191AFCB46A0068F9CA /* ViewController.m in Sources */,
+				FB3332161AFF4E4500F589CD /* IGFinacialInfoView.m in Sources */,
+				FB8F66411AFCB7DE0068F9CA /* IGTerrittoriesManager.m in Sources */,
+				FB8F664D1AFCBCE60068F9CA /* IGTraderFinanceInfo.m in Sources */,
+				FB8F664A1AFCBCC90068F9CA /* IGTraderPastInfo.m in Sources */,
+				FB8F665F1AFCF24F0068F9CA /* IGDateInputView.m in Sources */,
+				FB8F66161AFCB46A0068F9CA /* AppDelegate.m in Sources */,
+				FB8F66591AFCC0530068F9CA /* IGSetUpAccountView.m in Sources */,
+				FB8F663E1AFCB7A70068F9CA /* IGTerrittory.m in Sources */,
+				FB8F66441AFCBA700068F9CA /* IGTurboTraderAccount.m in Sources */,
+				FB8F665C1AFCC15E0068F9CA /* IGTerritorySelectView.m in Sources */,
+				FB8F663B1AFCB5530068F9CA /* IGMainModel.m in Sources */,
+				FB8F66471AFCBCA30068F9CA /* IGTraderBasicInfo.m in Sources */,
+				FB78279F1AFF864900B611F2 /* IGFieldInputView.m in Sources */,
+				FB78279C1AFF84FE00B611F2 /* IGBasicInputDataView.m in Sources */,
+				FB8F66131AFCB46A0068F9CA /* main.m in Sources */,
+				FB3332131AFF4E0300F589CD /* IGPastInfoView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB8F66221AFCB46A0068F9CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB8F662D1AFCB46A0068F9CA /* IGAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB8F66281AFCB46A0068F9CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB8F660C1AFCB4690068F9CA /* IGApp */;
+			targetProxy = FB8F66271AFCB46A0068F9CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB8F661A1AFCB46A0068F9CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB8F661B1AFCB46A0068F9CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB8F661F1AFCB46A0068F9CA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB8F66201AFCB46A0068F9CA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB8F662E1AFCB46A0068F9CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB8F662F1AFCB46A0068F9CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB8F66311AFCB46A0068F9CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = IGApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FB8F66321AFCB46A0068F9CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = IGApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FB8F66341AFCB46A0068F9CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IGAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IGApp.app/IGApp";
+			};
+			name = Debug;
+		};
+		FB8F66351AFCB46A0068F9CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IGAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IGApp.app/IGApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB8F66081AFCB4690068F9CA /* Build configuration list for PBXProject "IGApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8F662E1AFCB46A0068F9CA /* Debug */,
+				FB8F662F1AFCB46A0068F9CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8F66301AFCB46A0068F9CA /* Build configuration list for PBXNativeTarget "IGApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8F66311AFCB46A0068F9CA /* Debug */,
+				FB8F66321AFCB46A0068F9CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB8F66331AFCB46A0068F9CA /* Build configuration list for PBXNativeTarget "IGAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB8F66341AFCB46A0068F9CA /* Debug */,
+				FB8F66351AFCB46A0068F9CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB8F66051AFCB4690068F9CA /* Project object */;
+}
